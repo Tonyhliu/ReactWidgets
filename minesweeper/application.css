@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  margin: 3px auto;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.tile {
+  display: inline;
+  justify-content: left;
+  border-style: inset;
+  border-style: outset;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.newGame {
+  font-family: sans-serif;
+  text-align: center;
+  align-self: center;
+  border: 2px solid gray;
+  margin: 20px auto;
+  padding: 3px 5px;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 1px 1px;
+  width: 100px;
+}
